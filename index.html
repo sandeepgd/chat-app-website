@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App - Register Interest</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Wassup Fam!</h1>
+            <p class="subtitle">Coming Soon</p>
+        </header>
+        
+        <main>
+            <div class="content">
+                <h2>Join the Waitlist</h2>
+                <p>Be the first to know when the app is available on the App Store and Google Play.</p>
+                
+                <form action="https://script.google.com/macros/s/AKfycbwTPdOP0Z5P6F0W_0V9GOFMIHF2QlYSDib3IRnHm18dmXjtH1TU-fNzvESKk0IlFzUL/exec" method="POST" id="interestForm" class="interest-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Register Interest</button>
+                </form>
+                
+                <div id="successMessage" class="success-message hidden">
+                    Thank you for your interest! We'll keep you updated.
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Built with 💙</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
