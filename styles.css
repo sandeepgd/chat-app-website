@@ -145,4 +145,84 @@ footer {
     h2 {
         font-size: 1.5rem;
     }
+}
+
+/* Privacy Page Styles */
+.privacy-content {
+    text-align: left;
+    max-width: 800px;
+}
+
+.privacy-content section {
+    margin-bottom: 2.5rem;
+}
+
+.privacy-content h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+}
+
+.privacy-content h3 {
+    color: var(--text-color);
+    margin: 1.5rem 0 1rem;
+    font-size: 1.4rem;
+}
+
+.privacy-content h4 {
+    color: var(--text-color);
+    margin: 1.25rem 0 0.75rem;
+    font-size: 1.2rem;
+}
+
+.privacy-content p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.privacy-content ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.privacy-content li {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+}
+
+.privacy-content strong {
+    color: var(--text-color);
+}
+
+.privacy-content a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.privacy-content a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+    .privacy-content h2 {
+        font-size: 1.5rem;
+    }
+    
+    .privacy-content h3 {
+        font-size: 1.3rem;
+    }
+    
+    .privacy-content h4 {
+        font-size: 1.1rem;
+    }
 } 
